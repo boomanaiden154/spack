@@ -36,6 +36,8 @@ class MesaGlu(AutotoolsPackage):
 
     provides("glu@1.3")
 
+    patch("register-long.patch")
+
     def configure_args(self):
         args = ["--disable-libglvnd"]
 
