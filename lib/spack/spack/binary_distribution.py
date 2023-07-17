@@ -1152,7 +1152,7 @@ def gzip_compressed_tarfile(path):
     # compresslevel=9 python default: llvm takes 12mins, roughly 2.1GB
     # So we follow gzip.
     with open(path, "wb") as fileobj, closing(
-        GzipFile(filename="", mode="wb", compresslevel=6, mtime=0, fileobj=fileobj)
+        GzipFile(filename="", mode="wb", compresslevel=0, mtime=0, fileobj=fileobj)
     ) as gzip_file, tarfile.TarFile(name="", mode="w", fileobj=gzip_file) as tar:
         yield tar
 
