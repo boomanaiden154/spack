@@ -1139,7 +1139,7 @@ def gzip_compressed_tarfile(path):
     # compresslevel=9 python default: llvm takes 12mins, roughly 2.1GB
     # So we follow gzip.
     with open(path, "wb") as f, ChecksumWriter(f) as inner_checksum, closing(
-        GzipFile(filename="", mode="wb", compresslevel=6, mtime=0, fileobj=inner_checksum)
+        GzipFile(filename="", mode="wb", compresslevel=0, mtime=0, fileobj=inner_checksum)
     ) as gzip_file, ChecksumWriter(gzip_file) as outer_checksum, tarfile.TarFile(
         name="", mode="w", fileobj=outer_checksum
     ) as tar:
