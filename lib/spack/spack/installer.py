@@ -1087,7 +1087,7 @@ class PackageInstaller:
             no_p0 = len(self.build_tasks) == 0 or not self._next_is_pri0()
             timeout = None if no_p0 else 3
         else:
-            timeout = None
+            timeout = 1
 
         try:
             if lock is None:
