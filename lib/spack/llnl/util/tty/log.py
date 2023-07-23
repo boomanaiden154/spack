@@ -150,7 +150,7 @@ class keyboard_input:
         Note that stream can be None, in which case ``keyboard_input``
         will do nothing.
         """
-        self.stream = stream
+        self.stream = None
 
     def _is_background(self):
         """True iff calling process is in the background."""
