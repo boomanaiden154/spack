@@ -159,6 +159,7 @@ DEFAULT_FORMAT = (
     "{name}{@versions}"
     "{%compiler.name}{@compiler.versions}{compiler_flags}"
     "{variants}{arch=architecture}{/abstract_hash}"
+    "{license=license}"
 )
 
 #: Display format, which eliminates extra `@=` in the output, for readability.
@@ -4368,7 +4369,7 @@ class Spec:
                         if self.intersects(when_license_spec):
                             used_license = spec.package.licenses[when_license_spec]
                             break
-                    write(sig + morph(spec, used_license), "license")
+                    write(sig + morph(spec, '"' + used_license + '"'), "license")
                 return
             elif re.match(r"hash(:\d)?", attribute):
                 col = "#"
