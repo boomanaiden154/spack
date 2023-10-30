@@ -13,6 +13,8 @@ class Fairmq(CMakePackage):
     git = "https://github.com/FairRootGroup/FairMQ.git"
     maintainers("dennisklein", "ChristianTackeGSI")
 
+    license("LGPL-3.0-or-later")
+
     version("dev", branch="dev", submodules=True, get_full_repo=True)
     version(
         "1.7.0",

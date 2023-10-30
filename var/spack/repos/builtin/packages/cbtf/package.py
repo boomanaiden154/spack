@@ -20,6 +20,8 @@ class Cbtf(CMakePackage):
 
     maintainers("jgalarowicz")
 
+    license("GPL-2.0-or-later")
+
     version("develop", branch="master")
     version("1.9.4.1", branch="1.9.4.1")
     version("1.9.4", branch="1.9.4")

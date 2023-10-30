@@ -17,6 +17,8 @@ class Pflotran(AutotoolsPackage):
 
     maintainers("ghammond86", "balay")
 
+    license("LGPL-3.0-only")
+
     version("develop")
     version("4.0.1", commit="fd351a49b687e27f46eae92e9259156eea74897d")  # tag v4.0.1
     version("3.0.2", commit="9e07f416a66b0ad304c720b61aa41cba9a0929d5")  # tag v3.0.2

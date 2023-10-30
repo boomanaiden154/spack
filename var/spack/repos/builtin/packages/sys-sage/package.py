@@ -16,6 +16,8 @@ class SysSage(CMakePackage):
 
     maintainers("stepanvanecek")
 
+    license("LGPL-2.1-or-later")
+
     version("master", branch="master")
     version(
         "0.1.1-alpha.2", sha256="991a77cf37b061a911c8566fd4486f914de4f4c8cdf39112ec8a32903450c178"

@@ -16,6 +16,8 @@ class Kakoune(MakefilePackage):
 
     maintainers("Bambi")
 
+    license("Unlicense")
+
     version(
         "2021.11.08", sha256="aa30889d9da11331a243a8f40fe4f6a8619321b19217debac8f565e06eddb5f4"
     )

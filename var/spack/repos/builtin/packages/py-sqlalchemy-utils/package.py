@@ -12,6 +12,8 @@ class PySqlalchemyUtils(PythonPackage):
     homepage = "https://github.com/kvesteri/sqlalchemy-utils"
     pypi = "sqlalchemy-utils/SQLAlchemy-Utils-0.36.8.tar.gz"
 
+    license("BSD-3-Clause")
+
     version("0.36.8", sha256="fb66e9956e41340011b70b80f898fde6064ec1817af77199ee21ace71d7d6ab0")
 
     depends_on("py-setuptools", type="build")

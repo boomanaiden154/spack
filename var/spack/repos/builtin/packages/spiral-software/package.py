@@ -17,6 +17,8 @@ class SpiralSoftware(CMakePackage):
 
     maintainers("spiralgen")
 
+    license("BSD-2-Clause-FreeBSD")
+
     version("develop", branch="develop")
     version("master", branch="master")
     version("8.5.0", sha256="829345b8ca3ab0069a1a6e230f60ab03257060a8f05c021cee022e294eef592d")

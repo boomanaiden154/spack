@@ -13,6 +13,8 @@ class PyApispec(PythonPackage):
     homepage = "https://github.com/marshmallow-code/apispec"
     pypi = "apispec/apispec-6.0.2.tar.gz"
 
+    license("MIT")
+
     version("6.0.2", sha256="e76d80b739edef4be213092a6384ad7fd933ba7d64f6d5a0aff8d4da1bef7887")
 
     depends_on("python@3.7:", type=("build", "run"))

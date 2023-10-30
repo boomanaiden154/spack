@@ -13,6 +13,8 @@ class PyNibetaseries(PythonPackage):
     pypi = "nibetaseries/nibetaseries-0.6.0.tar.gz"
     git = "https://github.com/HBClab/NiBetaSeries.git"
 
+    license("MIT")
+
     version("master", branch="master")
     version("0.6.0", sha256="afddea1bf9b9de4ae446a5d9d2a56bdc88a5a9588bec5ecd3c8ac978fe416515")
 

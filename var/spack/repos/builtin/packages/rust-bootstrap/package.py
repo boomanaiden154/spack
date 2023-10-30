@@ -75,6 +75,8 @@ class RustBootstrap(Package):
     os = platform.system().lower()
     target = rust_targets[platform.machine().lower()]
 
+    license("MIT")
+
     # Pre-release versions of the bootstrap compiler.
     # Note: These versions are unchecksumed since they will change
     # periodically as new versions are released.

@@ -23,6 +23,8 @@ class Kokkos(CMakePackage, CudaPackage, ROCmPackage):
 
     maintainers("janciesko", "crtrott")
 
+    license("BSD-3-Clause")
+
     version("master", branch="master")
     version("develop", branch="develop")
     version("4.1.00", sha256="cf725ea34ba766fdaf29c884cfe2daacfdc6dc2d6af84042d1c78d0f16866275")

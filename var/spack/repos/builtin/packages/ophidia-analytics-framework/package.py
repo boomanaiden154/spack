@@ -11,6 +11,9 @@ class OphidiaAnalyticsFramework(AutotoolsPackage):
 
     homepage = "https://github.com/OphidiaBigData/ophidia-analytics-framework"
     url = "https://github.com/OphidiaBigData/ophidia-analytics-framework/archive/refs/tags/v1.7.3.tar.gz"
+
+    license("GPL-3.0-only")
+
     maintainers("eldoo", "SoniaScard")
     version("1.7.3", sha256="f8fc6374613efd10d9878e216b40494fd38622389c52005e3b85dd9956fa7cd5")
     version(

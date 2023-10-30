@@ -29,6 +29,8 @@ class Kealib(CMakePackage):
 
     maintainers("gillins", "neilflood", "petebunting")
 
+    license("MIT")
+
     version("develop", git=git)
     version("1.5.2", sha256="c4e17c472761a39e45184b5fa687395b319ac75430e0f6584dbf4cec6e335572")
     version("1.5.1", sha256="06cd547b1e40394b9539beaf6982bd249e8ee93d6150295e9cd9161d00829657")

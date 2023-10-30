@@ -19,6 +19,8 @@ class Migraphx(CMakePackage):
     maintainers("srekolam", "renjithravindrankannath")
     libraries = ["libmigraphx"]
 
+    license("MIT")
+
     version("5.6.1", sha256="b108c33f07572ffd880b20f6de06f1934ab2a1b41ae69095612322ac412fa91c")
     version("5.6.0", sha256="eaec90535d62002fd5bb264677ad4a7e30c55f18d2a287680d0495c7e60432b2")
     version("5.5.1", sha256="e71c4744f8ef6a1a99c179bbad94b8fe9bd7686eaa9397f376b70988c3341f0c")

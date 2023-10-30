@@ -14,6 +14,8 @@ class Pcl(CMakePackage):
     homepage = "https://pointclouds.org/"
     url = "https://github.com/PointCloudLibrary/pcl/releases/download/pcl-1.11.1/source.tar.gz"
 
+    license("BSD-3-Clause")
+
     version("1.11.1", sha256="19d1a0bee2bc153de47c05da54fc6feb23393f306ab2dea2e25419654000336e")
 
     depends_on("cmake@3.5:", type="build")

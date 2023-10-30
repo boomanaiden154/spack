@@ -18,6 +18,8 @@ class SstElements(AutotoolsPackage):
 
     maintainers("berquist", "naromero77")
 
+    license("BSD-3-Clause")
+
     version("13.0.0", sha256="1f6f6b403a8c1b22a27cdf2943c9e505825ee14866891e7bc944d4471b7b0321")
     version("12.1.0", sha256="77948cf8e1f8bf8d238d475cea111c9a72b307cbf403cb429ef0426d0cf708a4")
     version("12.0.0", sha256="d3caacf8ba621a644151e1670dfc0fd8e91b45a583699998f94312897b0eca26")

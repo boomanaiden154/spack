@@ -16,6 +16,8 @@ class Openvkl(CMakePackage):
 
     # maintainers("github_user1", "github_user2")
 
+    license("Apache-2.0")
+
     version("1.3.2", sha256="7704736566bf17497a3e51c067bd575316895fda96eccc682dae4aac7fb07b28")
     version("1.3.1", sha256="c9cefb6c313f2b4c0331e9629931759a6bc204ec00deed6ec0becad1670a1933")
     version("1.3.0", sha256="c6d4d40e6d232839c278b53dee1e7bd3bd239c3ccac33f49b465fc65a0692be9")

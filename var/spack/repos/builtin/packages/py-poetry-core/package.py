@@ -12,6 +12,8 @@ class PyPoetryCore(PythonPackage):
     homepage = "https://github.com/python-poetry/poetry-core"
     pypi = "poetry-core/poetry_core-1.6.1.tar.gz"
 
+    license("MIT")
+
     version("1.6.1", sha256="0f9b0de39665f36d6594657e7d57b6f463cc10f30c28e6d1c3b9ff54c26c9ac3")
     version("1.2.0", sha256="ceccec95487e46c63a41761fbac5211b809bca22658e25a049f4c7da96269f71")
     version("1.1.0", sha256="d145ae121cf79118a8901b60f2c951c4edcc16f55eb8aaefc156aa33aa921f07")

@@ -15,6 +15,8 @@ class PyFenicsDolfinx(PythonPackage):
     git = "https://github.com/FEniCS/dolfinx.git"
     maintainers("chrisrichardson", "garth-wells", "nate-sime", "jhale")
 
+    license("LGPL-3.0-or-later")
+
     version("main", branch="main")
     version("0.6.0", sha256="eb8ac2bb2f032b0d393977993e1ab6b4101a84d54023a67206e3eac1a8d79b80")
     version("0.5.1", sha256="a570e3f6ed8e7c570e7e61d0e6fd44fa9dad2c5f8f1f48a6dc9ad22bacfbc973")

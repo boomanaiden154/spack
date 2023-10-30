@@ -19,6 +19,9 @@ class MiopenHip(CMakePackage):
 
     maintainers("srekolam", "renjithravindrankannath")
     libraries = ["libMIOpen"]
+
+    license("MIT")
+
     version("5.6.1", sha256="ff627d68ed9e52433a3c808b5d3ff179a398b77ce81b00cfea7b2c4da5162c6c")
     version("5.6.0", sha256="d620ddab5b488bdf81242654fefa337c6b71dc410c2ff26d30a4ee86a8d22d11")
     version("5.5.1", sha256="2cd75071b8ee876c69a94f028b6c8a9346d6d2fde7d4b64e6d635f3b6c994262")

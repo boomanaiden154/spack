@@ -19,6 +19,8 @@ class Elbencho(MakefilePackage):
 
     maintainers("ethanjjjjjjj")
 
+    license("GPL-3.0-or-later")
+
     version("3.0-1", sha256="19dad85e1fc74419dcdf740f11a47d3f6d566770a06e40976755a3404566c11d")
     version("2.2-5", sha256="4b598639452665a8b79c4c9d8a22ae63fb9b04057635a45e686aa3939ee255b4")
     version("2.2-3", sha256="0ae2d495d2863b84f21f55b7c526674fab1be723d0697087017946647f79d0e6")

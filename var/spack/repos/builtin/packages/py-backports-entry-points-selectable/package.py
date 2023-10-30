@@ -14,6 +14,8 @@ class PyBackportsEntryPointsSelectable(PythonPackage):
 
     maintainers("iarspider")
 
+    license("MIT")
+
     version("1.1.1", sha256="914b21a479fde881635f7af5adc7f6e38d6b274be32269070c53b698c60d5386")
     version("1.1.0", sha256="988468260ec1c196dab6ae1149260e2f5472c9110334e5d51adcb77867361f6a")
 

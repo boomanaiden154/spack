@@ -26,6 +26,8 @@ class Cmake(Package):
 
     executables = ["^cmake[0-9]*$"]
 
+    license("BSD-3-Clause")
+
     version("master", branch="master")
     version("3.27.7", sha256="08f71a106036bf051f692760ef9558c0577c42ac39e96ba097e7662bd4158d8e")
     version("3.27.6", sha256="ef3056df528569e0e8956f6cf38806879347ac6de6a4ff7e4105dc4578732cfb")

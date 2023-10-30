@@ -14,6 +14,8 @@ class PySphinx(PythonPackage):
 
     maintainers("adamjstewart")
 
+    license("BSD-2-Clause")
+
     version("7.2.3", sha256="ece68bb4d77b7dc090573825db45a6f9183e74098d1c21573485de250b1d1e3f")
     version("7.2.2", sha256="1c0abe6d4de7a6b2c2b109a2e18387bf27b240742e1b34ea42ac3ed2ac99978c")
     version("7.2.1", sha256="dad5e865dcdeb1486f70d8963cc9140561836bb243c311868cf11eb0f741497a")

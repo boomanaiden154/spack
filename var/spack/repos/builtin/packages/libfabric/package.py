@@ -21,6 +21,8 @@ class Libfabric(AutotoolsPackage):
 
     executables = ["^fi_info$"]
 
+    license("GPL-2.0-or-later")
+
     version("main", branch="main")
     version("1.19.0", sha256="f14c764be9103e80c46223bde66e530e5954cb28b3835b57c8e728479603ef9e")
     version("1.18.2", sha256="64d7837853ca84d2a413fdd96534b6a81e6e777cc13866e28cf86cd0ccf1b93e")

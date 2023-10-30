@@ -17,6 +17,8 @@ class Libpeas(AutotoolsPackage):
     homepage = "http://developer.gnome.org/libpeas/stable"
     url = "https://download.gnome.org/sources/libpeas/1.22/libpeas-1.22.0.tar.xz"
 
+    license("LGPL-2.1-or-later")
+
     version("1.22.0", sha256="5b2fc0f53962b25bca131a5ec0139e6fef8e254481b6e777975f7a1d2702a962")
 
     depends_on("m4", type="build")

@@ -20,6 +20,8 @@ class Hiprand(CMakePackage, CudaPackage, ROCmPackage):
     maintainers("cgmb", "srekolam", "renjithravindrankannath")
     libraries = ["libhiprand"]
 
+    license("MIT")
+
     version("develop", branch="develop")
     version("master", branch="master")
     version("5.6.1", sha256="a73d5578bc7f8dff0b8960e4bff97bc4fc28f508a19ed6acd1cfd4d3e76b47ee")

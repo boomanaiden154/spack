@@ -12,6 +12,8 @@ class PyPoetry(PythonPackage):
     homepage = "https://python-poetry.org/"
     pypi = "poetry/poetry-1.1.12.tar.gz"
 
+    license("MIT")
+
     version("1.2.1", sha256="2750bb2b636ef435d8beac51dde0b13d06199017a1d9b96cba899863d1e81024")
     version("1.2.0", sha256="17c527d5d5505a5a7c5c14348d87f077d643cf1f186321530cde68e530bba59f")
     version("1.1.13", sha256="b905ed610085f568aa61574e0e09260c02bff9eae12ff672af39e9f399357ac4")

@@ -14,6 +14,8 @@ class Glab(Package):
 
     maintainers("alecbcs")
 
+    license("MIT")
+
     version("1.33.0", sha256="447a9b76acb5377642a4975908f610a3082026c176329c7c8cfed1461d2e1570")
     version("1.31.0", sha256="5648e88e7d6cc993227f5a4e80238af189bed09c7aed1eb12be7408e9a042747")
     version("1.30.0", sha256="d3c1a9ba723d94a0be10fc343717cf7b61732644f5c42922f1c8d81047164b99")

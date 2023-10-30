@@ -34,6 +34,8 @@ class Llvm(CMakePackage, CudaPackage):
 
     family = "compiler"  # Used by lmod
 
+    license("Apache-2.0")
+
     version("main", branch="main")
     version("17.0.1", sha256="d51b10be66c10a6a81f4c594b554ffbf1063ffbadcb810af37d1f88d6e0b49dd")
     version("16.0.6", sha256="56b2f75fdaa95ad5e477a246d3f0d164964ab066b4619a01836ef08e475ec9d5")

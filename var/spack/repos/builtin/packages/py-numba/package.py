@@ -13,6 +13,8 @@ class PyNumba(PythonPackage):
     pypi = "numba/numba-0.35.0.tar.gz"
     git = "https://github.com/numba/numba.git"
 
+    license("BSD-2-Clause")
+
     version("0.57.0", sha256="2af6d81067a5bdc13960c6d2519dbabbf4d5d597cf75d640c5aeaefd48c6420a")
     version("0.56.4", sha256="32d9fef412c81483d7efe0ceb6cf4d3310fde8b624a9cecca00f790573ac96ee")
     version("0.56.0", sha256="87a647dd4b8fce389869ff71f117732de9a519fe07663d9a02d75724eb8e244d")

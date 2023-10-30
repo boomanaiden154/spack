@@ -16,6 +16,8 @@ class Highfive(CMakePackage):
     git = "https://github.com/BlueBrain/HighFive.git"
     maintainers("alkino")
 
+    license("BSL-1.0")
+
     version("develop", branch="master")
     version("2.7.1", sha256="25b4c51a94d1e670dc93b9b73f51e79b65d8ff49bcd6e5d5582d5ecd2789a249")
     version("2.7.0", sha256="8e05672ddf81a59ce014b1d065bd9a8c5034dbd91a5c2578e805ef880afa5907")

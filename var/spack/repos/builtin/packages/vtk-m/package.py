@@ -27,6 +27,8 @@ class VtkM(CMakePackage, CudaPackage, ROCmPackage):
 
     test_requires_compiler = True
 
+    license("BSD-3-Clause")
+
     version("master", branch="master")
     version("release", branch="release")
     version("2.1.0-rc2", sha256="94631fff9f668f40c9c797f03cf32a0d22d57111e309b1e8133c2a3f292b4af1")

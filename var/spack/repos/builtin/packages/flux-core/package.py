@@ -19,6 +19,8 @@ class FluxCore(AutotoolsPackage):
 
     maintainers("grondo")
 
+    license("LGPL-3.0-or-later")
+
     version("master", branch="master")
     version("0.55.0", sha256="2925b8a084e9d1069a96de7689b515ad6f2051ecfb9fbbe4d2643507de7ccd30")
     version("0.54.0", sha256="721fc3fff64b3b167ae55d0e29379ff3211729248ef97e3b9855816219063b42")

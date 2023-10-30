@@ -14,6 +14,8 @@ class Cdt(CMakePackage):
 
     maintainers("jcortial-safran")
 
+    license("MPL-2.0")
+
     version("1.3.0", sha256="7e8feadf9534cf79f9bf188365510fd6bc68ea997758e1c68d1569f98da924da")
 
     variant(

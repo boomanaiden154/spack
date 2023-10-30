@@ -16,6 +16,8 @@ class PyXattr(PythonPackage):
     pypi = "xattr/xattr-0.9.6.tar.gz"
     git = "https://github.com/xattr/xattr"
 
+    license("MIT")
+
     version("master", branch="master")
     version("0.9.9", sha256="09cb7e1efb3aa1b4991d6be4eb25b73dc518b4fe894f0915f5b0dcede972f346")
     version("0.9.8", sha256="bf11c8c857215e3ef60b031e7807264f30af4348d7565a7e9b8dca70593753c7")

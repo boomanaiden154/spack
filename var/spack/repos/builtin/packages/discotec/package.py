@@ -16,6 +16,8 @@ class Discotec(CMakePackage):
 
     maintainers("freifrauvonbleifrei", "pfluegdk")
 
+    license("LGPL-3.0-only")
+
     version("main", branch="main")
 
     variant("ft", default=False, description="DisCoTec with algorithm-based fault tolerance")

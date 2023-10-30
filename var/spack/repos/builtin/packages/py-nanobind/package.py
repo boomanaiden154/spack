@@ -22,6 +22,8 @@ class PyNanobind(PythonPackage):
 
     maintainers("chrisrichardson", "garth-wells", "ma595")
 
+    license("BSD-3-Clause")
+
     version("master", branch="master", submodules=True)
     version(
         "1.6.2", tag="v1.6.2", commit="cc5ac7e61def198db2a8b65c6d630343987a9f1d", submodules=True

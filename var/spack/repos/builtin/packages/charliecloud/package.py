@@ -16,6 +16,8 @@ class Charliecloud(AutotoolsPackage):
 
     tags = ["e4s"]
 
+    license("Apache-2.0")
+
     version("master", branch="master")
     version("0.34", sha256="034080c162949f4344ae1011cda026d4bb3ecd5cdb53135ac06d236f87e3b27d")
     version(

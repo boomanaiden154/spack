@@ -24,6 +24,8 @@ class Ispc(CMakePackage):
 
     executables = ["^ispc$"]
 
+    license("BSD-3-Clause")
+
     version("main", branch="main")
     version("1.20.0", sha256="8bd30ded7f96859451ead1cecf6f58ac8e937288fe0e5b98c56f6eba4be370b4")
     version("1.19.0", sha256="c1aeae4bdfb28004a6949394ea1b3daa3fdf12f646e17fcc0614861077dc8b6a")

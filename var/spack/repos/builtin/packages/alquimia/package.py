@@ -15,6 +15,8 @@ class Alquimia(CMakePackage):
 
     maintainers("smolins", "balay")
 
+    license("BSD-3-Clause-LBNL")
+
     version("develop")
     version("1.0.10", commit="b2c11b6cde321f4a495ef9fcf267cb4c7a9858a0")  # tag v.1.0.10
     version("1.0.9", commit="2ee3bcfacc63f685864bcac2b6868b48ad235225")  # tag v.1.0.9

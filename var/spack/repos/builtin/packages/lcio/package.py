@@ -18,6 +18,8 @@ class Lcio(CMakePackage):
 
     maintainers("gaede", "vvolkl", "jmcarcell")
 
+    license("BSD-3-Clause")
+
     version("master", branch="master")
     version("2.20", sha256="5ef92c9ef04ce468ffb48be0ec6010377a400b064e352cb50f9f4c9599e7e990")
     version("2.19", sha256="2d6b37094d8d556ab0ba0efa632f10d8b851f533ca5c767e436397df18cb57c7")

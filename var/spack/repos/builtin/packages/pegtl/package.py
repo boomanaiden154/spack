@@ -18,6 +18,8 @@ class Pegtl(CMakePackage):
     url = "https://github.com/taocpp/PEGTL/tarball/2.1.4"
     git = "https://github.com/taocpp/PEGTL.git"
 
+    license("MIT")
+
     version("master", branch="master")
     version("3.2.0", sha256="91aa6529ef9e6b57368e7b5b1f04a3bd26a39419d30e35a3c5c66ef073926b56")
     version("2.8.3", sha256="370afd0fbe6d73c448a33c10fbe4a7254f92077f5a217317d0a32a9231293015")

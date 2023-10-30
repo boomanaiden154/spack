@@ -16,6 +16,10 @@ class Liggghts(MakefilePackage):
     url = "https://github.com/CFDEMproject/LIGGGHTS-PUBLIC/archive/3.8.0.tar.gz"
     git = "ssh://git@github.com/CFDEMproject/LIGGGHTS-PUBLIC.git"
 
+    maintainers("SofiaXu")
+
+    license("GPL-2.0-only")
+
     version("3.8.0", sha256="9cb2e6596f584463ac2f80e3ff7b9588b7e3638c44324635b6329df87b90ab03")
 
     variant("mpi", default=True, description="Enable MPI support")

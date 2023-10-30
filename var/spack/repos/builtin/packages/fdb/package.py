@@ -16,6 +16,8 @@ class Fdb(CMakePackage):
 
     maintainers("skosukhin")
 
+    license("Apache-2.0")
+
     # master version of fdb is subject to frequent changes and is to be used experimentally.
     version("master", branch="master")
     version("5.11.23", sha256="09b1d93f2b71d70c7b69472dfbd45a7da0257211f5505b5fcaf55bfc28ca6c65")

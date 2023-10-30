@@ -25,6 +25,8 @@ class Catalyst(CMakePackage):
 
     maintainers("danlipsa")
 
+    license("Apache-2.0")
+
     version("5.6.0", sha256="5b49cb96ab78eee0427e25200530ac892f9a3da7725109ce1790f8010cb5b377")
 
     variant("python", default=False, description="Enable Python support")

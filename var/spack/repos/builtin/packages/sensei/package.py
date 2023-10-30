@@ -18,6 +18,8 @@ class Sensei(CMakePackage):
     git = "https://github.com/SENSEI-insitu/SENSEI.git"
     maintainers("sshudler", "kwryankrattiger")
 
+    license("BSD-3-Clause-LBNL")
+
     version("develop", branch="develop")
     version("4.1.0", sha256="e1154240c022069fee454c747d7c60e065d36b4d1dc71852b3cd527c22b531c1")
     version("4.0.0", sha256="fc1538aa1051789dbdefbe18b7f251bc46e7a6ae1db3a940c123552e0318db8b")

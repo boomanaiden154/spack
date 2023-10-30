@@ -14,6 +14,8 @@ class Autoconf(AutotoolsPackage, GNUMirrorPackage):
     homepage = "https://www.gnu.org/software/autoconf/"
     gnu_mirror_path = "autoconf/autoconf-2.69.tar.gz"
 
+    license("GPL-2.0-or-later")
+
     version("2.71", sha256="431075ad0bf529ef13cb41e9042c542381103e80015686222b8a9d4abef42a1c")
     version("2.70", sha256="f05f410fda74323ada4bdc4610db37f8dbd556602ba65bc843edb4d4d4a1b2b7")
     version(

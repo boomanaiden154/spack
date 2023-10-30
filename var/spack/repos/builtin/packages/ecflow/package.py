@@ -23,6 +23,8 @@ class Ecflow(CMakePackage):
 
     maintainers("climbfuji", "AlexanderRichert-NOAA")
 
+    license("Apache-2.0")
+
     # https://confluence.ecmwf.int/download/attachments/8650755/ecFlow-5.8.3-Source.tar.gz?api=v2
     version("5.8.3", sha256="1d890008414017da578dbd5a95cb1b4d599f01d5a3bb3e0297fe94a87fbd81a6")
     version("4.13.0", sha256="c743896e0ec1d705edd2abf2ee5a47f4b6f7b1818d8c159b521bdff50a403e39")

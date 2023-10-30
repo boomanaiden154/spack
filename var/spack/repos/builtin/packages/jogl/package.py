@@ -15,6 +15,8 @@ class Jogl(Package):
     homepage = "https://jogamp.org/jogl/www/"
     git = "https://github.com/WadeWalker/jogl.git"
 
+    license("SGI-B-1.1")
+
     version("java-11-fixes", branch="java-11-fixes", submodules=True)
 
     depends_on("ant", type="build")

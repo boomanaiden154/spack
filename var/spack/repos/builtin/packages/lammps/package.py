@@ -22,6 +22,8 @@ class Lammps(CMakePackage, CudaPackage, ROCmPackage):
 
     maintainers("rbberger")
 
+    license("GPL-2.0-or-later")
+
     # rules for new versions and deprecation
     # * new stable versions should be added to stable_versions set
     # * a stable version that has updates and any of its outdated update releases should be

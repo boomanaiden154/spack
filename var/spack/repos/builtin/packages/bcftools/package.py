@@ -16,6 +16,8 @@ class Bcftools(AutotoolsPackage):
     homepage = "https://samtools.github.io/bcftools/"
     url = "https://github.com/samtools/bcftools/releases/download/1.3.1/bcftools-1.3.1.tar.bz2"
 
+    license("GPL-3.0-or-later")
+
     version("1.16", sha256="293010736b076cf684d2873928924fcc3d2c231a091084c2ac23a8045c7df982")
     version("1.15.1", sha256="f21f9564873eb27ccf22d13b91a64acb8fbbfe4f9e4c37933a54b9a95857f2d7")
     version("1.14", sha256="b7ef88ae89fcb55658c5bea2e8cb8e756b055e13860036d6be13756782aa19cb")

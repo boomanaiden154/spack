@@ -13,6 +13,8 @@ class Kalign(AutotoolsPackage):
     homepage = "https://github.com/TimoLassmann/kalign"
     url = "https://github.com/TimoLassmann/kalign/archive/refs/tags/v3.3.1.tar.gz"
 
+    license("GPL-3.0-or-later")
+
     version("3.3.1", sha256="7f10acf9a3fa15deabbc0304e7c14efa25cea39108318c9f02b47257de2d7390")
 
     depends_on("autoconf", type="build")

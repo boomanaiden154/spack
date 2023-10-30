@@ -20,6 +20,8 @@ class Comgr(CMakePackage):
     maintainers("srekolam", "renjithravindrankannath", "haampie")
     libraries = ["libamd_comgr"]
 
+    license("NCSA")
+
     version("master", branch="amd-stg-open")
     version("5.6.1", sha256="0a85d84619f98be26ca7a32c71f94ed3c4e9866133789eabb451be64ce739300")
     version("5.6.0", sha256="9396a7238b547ee68146c669b10b9d5de8f1d76527c649133c75d8076a185a72")

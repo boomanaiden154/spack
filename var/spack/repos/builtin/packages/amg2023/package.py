@@ -17,6 +17,8 @@ class Amg2023(CMakePackage, CudaPackage, ROCmPackage):
     homepage = "https://github.com/LLNL/AMG2023"
     git = "https://github.com/LLNL/AMG2023.git"
 
+    license("Apache-2.0")
+
     version("develop", branch="main")
     version("cmake-build", git="https://github.com/dyokelson/AMG2023.git", branch="cmake")
 

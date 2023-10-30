@@ -17,6 +17,8 @@ class Fpart(AutotoolsPackage):
 
     maintainers("drkrynstrng")
 
+    license("BSD-2-Clause")
+
     version("master", branch="master")
     version("1.5.1", sha256="c353a28f48e4c08f597304cb4ebb88b382f66b7fabfc8d0328ccbb0ceae9220c")
 

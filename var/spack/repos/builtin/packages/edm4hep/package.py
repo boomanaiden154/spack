@@ -18,6 +18,8 @@ class Edm4hep(CMakePackage):
 
     tags = ["hep", "key4hep"]
 
+    license("Apache-2.0")
+
     version("master", branch="master")
     version("0.10", sha256="a95c917c19793cfad6b0959854a653c5ce698c965598cabd649d544da07712c0")
     version(

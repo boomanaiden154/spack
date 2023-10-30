@@ -20,6 +20,8 @@ class Hpx(CMakePackage, CudaPackage, ROCmPackage):
 
     tags = ["e4s"]
 
+    license("BSL-1.0")
+
     version("master", branch="master")
     version("stable", tag="stable", commit="103a7b8e3719a0db948d1abde29de0ff91e070be")
     version("1.9.1", sha256="1adae9d408388a723277290ddb33c699aa9ea72defadf3f12d4acc913a0ff22d")

@@ -20,6 +20,8 @@ class Rpp(CMakePackage):
     maintainers = ["srekolam", "afzpatel"]
     tags = ["rocm"]
 
+    license("MIT")
+
     version("1.1.0", sha256="9b1b9e721df27ee577819710b261071c68b2dccba96d9daf5d0535ee5f0e045f")
     version("1.0.0", sha256="040601e356b0a06c4ffb2043320ae822ab0da78af867392002c7b68dbd85989c")
     version("0.99", sha256="f1d7ec65d0148ddb7b3ce836a7e058727036df940d72d1683dee590a913fd44a")

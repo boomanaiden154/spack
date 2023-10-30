@@ -14,6 +14,8 @@ class PyCylcFlow(PythonPackage):
 
     maintainers("LydDeb")
 
+    license("GPL-3.0-or-later")
+
     version("8.2.0", sha256="cbe35e0d72d1ca36f28a4cebe9b9040a3445a74253bc94051a3c906cf179ded0")
     version("8.1.4", sha256="d1835ac18f6f24f3115c56b2bc821185484e834a86b12fd0033ff7e4dc3c1f63")
 

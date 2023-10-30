@@ -15,6 +15,8 @@ class PyJsonpathNg(PythonPackage):
     homepage = "https://github.com/h2non/jsonpath-ng"
     pypi = "jsonpath-ng/jsonpath-ng-1.5.2.tar.gz"
 
+    license("Apache-2.0")
+
     version("1.5.2", sha256="144d91379be14d9019f51973bd647719c877bfc07dc6f3f5068895765950c69d")
 
     depends_on("py-setuptools", type="build")

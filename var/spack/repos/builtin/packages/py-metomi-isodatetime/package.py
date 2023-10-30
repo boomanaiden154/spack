@@ -14,6 +14,8 @@ class PyMetomiIsodatetime(PythonPackage):
 
     maintainers("LydDeb")
 
+    license("LGPL-3.0-only")
+
     version("3.0.0", sha256="2141e8aaa526ea7f7f1cb883e6c8ed83ffdab73269658d84d0624f63a6e1357e")
 
     depends_on("py-setuptools", type="build")

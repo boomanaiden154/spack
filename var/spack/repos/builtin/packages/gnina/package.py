@@ -16,6 +16,8 @@ class Gnina(CMakePackage, CudaPackage):
 
     maintainers("RMeli")
 
+    license("Apache-2.0")
+
     version("1.0.3", sha256="4274429f38293d79c7d22ab08aca91109e327e9ce3f682cd329a8f9c6ef429da")
 
     variant("cudnn", default=True, description="Build with cuDNN")

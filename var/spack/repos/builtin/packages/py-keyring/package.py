@@ -14,6 +14,8 @@ class PyKeyring(PythonPackage):
     homepage = "https://github.com/jaraco/keyring"
     pypi = "keyring/keyring-23.0.1.tar.gz"
 
+    license("MIT")
+
     version("23.13.1", sha256="ba2e15a9b35e21908d0aaf4e0a47acc52d6ae33444df0da2b49d41a46ef6d678")
     version("23.9.1", sha256="39e4f6572238d2615a82fcaa485e608b84b503cf080dc924c43bbbacb11c1c18")
     version("23.5.0", sha256="9012508e141a80bd1c0b6778d5c610dd9f8c464d75ac6774248500503f972fb9")

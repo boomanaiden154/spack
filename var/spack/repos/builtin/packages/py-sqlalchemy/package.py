@@ -13,6 +13,8 @@ class PySqlalchemy(PythonPackage):
     pypi = "SQLAlchemy/SQLAlchemy-1.3.9.tar.gz"
     git = "https://github.com/sqlalchemy/sqlalchemy.git"
 
+    license("MIT")
+
     version("2.0.19", sha256="77a14fa20264af73ddcdb1e2b9c5a829b8cc6b8304d0f093271980e36c200a3f")
     version("1.4.45", sha256="fd69850860093a3f69fefe0ab56d041edfdfe18510b53d9a2eaecba2f15fa795")
     version("1.4.44", sha256="2dda5f96719ae89b3ec0f1b79698d86eb9aecb1d54e990abb3fdd92c04b46a90")

@@ -15,6 +15,8 @@ class Ffmpeg(AutotoolsPackage):
 
     maintainers("xjrc")
 
+    license("GPL-2.0-or-later AND LGPL-2.1-or-later")
+
     version("6.0", sha256="47d062731c9f66a78380e35a19aac77cebceccd1c7cc309b9c82343ffc430c3d")
     version("5.1.2", sha256="39a0bcc8d98549f16c570624678246a6ac736c066cebdb409f9502e915b22f2b")
     version("4.4.1", sha256="8fc9f20ac5ed95115a9e285647add0eedd5cc1a98a039ada14c132452f98ac42")

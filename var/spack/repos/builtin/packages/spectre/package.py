@@ -28,6 +28,8 @@ class Spectre(CMakePackage):
 
     generator("ninja")
 
+    license("MIT")
+
     version("develop", branch="develop")
     version(
         "2023.09.07", sha256="2375117df09d99a2716d445ff51d151422467bd42cd38b5f1177d2d40cb90916"

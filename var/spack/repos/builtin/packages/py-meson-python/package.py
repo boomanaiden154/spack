@@ -14,6 +14,8 @@ class PyMesonPython(PythonPackage):
 
     maintainers("eli-schwartz", "adamjstewart", "rgommers")
 
+    license("MIT")
+
     # Needed for py-scikit-image, deprecate and remove once 0.13.0 is officially released
     version("0.13.1", sha256="63b3170001425c42fa4cfedadb9051cbd28925ff8eed7c40d36ba0099e3c7618")
     version(

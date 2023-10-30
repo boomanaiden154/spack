@@ -13,6 +13,8 @@ class PySpython(PythonPackage):
     homepage = "https://github.com/singularityhub/singularity-cli"
     pypi = "spython/spython-0.2.14.tar.gz"
 
+    license("MPL-2.0-no-copyleft-exception")
+
     version("0.2.14", sha256="49e22fbbdebe456b27ca17d30061489db8e0f95e62be3623267a23b85e3ce0f0")
 
     variant(

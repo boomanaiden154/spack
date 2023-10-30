@@ -15,6 +15,8 @@ class PySetuptools(PythonPackage):
 
     tags = ["build-tools"]
 
+    license("MIT")
+
     version("68.0.0", sha256="baf1fdb41c6da4cd2eae722e135500da913332ab3f2f5c7d33af9b492acb5235")
     version("67.6.0", sha256="2ee892cd5f29f3373097f5a814697e397cf3ce313616df0af11231e2ad118077")
     version("65.5.0", sha256="512e5536220e38146176efb833d4a62aa726b7bbff82cfbc8ba9eaa3996e0b17")

@@ -14,6 +14,8 @@ class Libceed(MakefilePackage, CudaPackage, ROCmPackage):
 
     maintainers("jedbrown", "v-dobrev", "tzanio", "jeremylt")
 
+    license("BSD-2-Clause")
+
     version("develop", branch="main")
     version("0.11.0", tag="v0.11.0", commit="8ec64e9ae9d5df169dba8c8ee61d8ec8907b8f80")
     version("0.10.1", tag="v0.10.1", commit="74532b27052d94e943eb8bc76257fbd710103614")

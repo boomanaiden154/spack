@@ -12,6 +12,8 @@ class PyCleo(PythonPackage):
     homepage = "https://github.com/sdispater/cleo"
     pypi = "cleo/cleo-0.8.1.tar.gz"
 
+    license("MIT")
+
     version("1.0.0a5", sha256="097c9d0e0332fd53cc89fc11eb0a6ba0309e6a3933c08f7b38558555486925d3")
     version(
         "0.8.1",

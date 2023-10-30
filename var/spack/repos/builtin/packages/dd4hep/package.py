@@ -23,6 +23,8 @@ class Dd4hep(CMakePackage):
 
     tags = ["hep"]
 
+    license("LGPL-3.0-only")
+
     version("master", branch="master")
     version("1.26", sha256="de2cc8d8e99217e23fdf0a55b879d3fd3a864690d6660e7808f1ff99eb47f384")
     version("1.25.1", sha256="6267e76c74fbb346aa881bc44de84434ebe788573f2997a189996252fc5b271b")

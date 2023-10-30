@@ -24,6 +24,8 @@ class Aluminum(CMakePackage, CudaPackage, ROCmPackage):
 
     maintainers("bvanessen")
 
+    license("Apache-2.0")
+
     version("master", branch="master")
     version("1.3.1", sha256="28ce0af6c6f29f97b7f19c5e45184bd2f8a0b1428f1e898b027d96d47cb74b0b")
     version("1.3.0", sha256="d0442efbebfdfb89eec793ae65eceb8f1ba65afa9f2e48df009f81985a4c27e3")

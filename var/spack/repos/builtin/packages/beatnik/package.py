@@ -14,6 +14,8 @@ class Beatnik(CMakePackage, CudaPackage, ROCmPackage):
 
     maintainers("patrickb314", "JStewart28")
 
+    license("BSD-3-Clause")
+
     # Add proper versions and checksums here. Will add 1.0 when a proper SHA is available
     # version("1.0", sha256="XXX")
     version("develop", branch="develop")

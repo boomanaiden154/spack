@@ -37,6 +37,8 @@ class Rocsolver(CMakePackage):
             for small matrix sizes",
     )
 
+    license("BSD-2-Clause")
+
     version("develop", branch="develop")
     version("master", branch="master")
     version("5.6.1", sha256="6a8f366218aee599a0e56755030f94ee690b34f30e6d602748632226c5dc21bb")

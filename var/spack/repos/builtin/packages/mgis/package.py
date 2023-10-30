@@ -22,6 +22,8 @@ class Mgis(CMakePackage):
     git = "https://github.com/thelfer/MFrontGenericInterfaceSupport.git"
     maintainers("thelfer")
 
+    license("LGPL-3.0-or-later")
+
     # development branches
     version("master", branch="master")
     version("rliv-2.0", branch="rliv-2.0")

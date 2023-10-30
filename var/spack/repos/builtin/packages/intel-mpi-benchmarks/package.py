@@ -21,6 +21,8 @@ class IntelMpiBenchmarks(MakefilePackage):
     url = "https://github.com/intel/mpi-benchmarks/archive/IMB-v2021.3.tar.gz"
     maintainers("carsonwoods")
 
+    license("BSD-3-Clause")
+
     version("2021.3", sha256="9b58a4a7eef7c0c877513152340948402fd87cb06270d2d81308dc2ef740f4c7")
     version("2021.2", sha256="ade3bfe18b4313a31fc09f0bf038e0a6c169c4145089bfc6f1f827687b81be6a")
     version("2021.1", sha256="9089bb81e3091af3481e03b898b339fb2d9fb6574d4ef059adb1f5410112b23a")

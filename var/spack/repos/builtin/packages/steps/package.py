@@ -14,6 +14,8 @@ class Steps(CMakePackage):
 
     maintainers("tristan0x")
 
+    license("GPL-3.0-only")
+
     version("develop", branch="master", submodules=True)
     version("4.1.1", submodules=True)
 

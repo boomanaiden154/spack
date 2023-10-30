@@ -14,6 +14,8 @@ class PyTorchaudio(PythonPackage):
     git = "https://github.com/pytorch/audio.git"
     submodules = True
 
+    license("BSD-2-Clause")
+
     version("main", branch="main")
     version("2.1.0", tag="v2.1.0", commit="6ea1133706801ec6e81bb29142da2e21a8583a0a")
     version("2.0.2", tag="v2.0.2", commit="31de77dad5c89274451b3f5c4bcb630be12787c4")

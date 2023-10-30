@@ -18,6 +18,8 @@ class PyLibensemble(PythonPackage):
 
     tags = ["e4s"]
 
+    license("BSD-3-Clause")
+
     version("develop", branch="develop")
     version("1.0.0", sha256="b164e044f16f15b68fd565684ad8ce876c93aaeb84e5078f4ea2a29684b110ca")
     version("0.10.2", sha256="ef8dfe5d233dcae2636a3d6aa38f3c2ad0f42c65bd38f664e99b3e63b9f86622")

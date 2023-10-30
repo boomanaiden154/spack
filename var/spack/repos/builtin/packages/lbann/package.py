@@ -23,6 +23,8 @@ class Lbann(CachedCMakePackage, CudaPackage, ROCmPackage):
 
     maintainers("bvanessen")
 
+    license("Apache-2.0")
+
     version("develop", branch="develop")
     version("0.102", sha256="3734a76794991207e2dd2221f05f0e63a86ddafa777515d93d99d48629140f1a")
     version(

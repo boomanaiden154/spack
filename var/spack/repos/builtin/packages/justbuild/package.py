@@ -21,6 +21,8 @@ class Justbuild(Package):
 
     maintainers("asartori86")
 
+    license("Apache-2.0")
+
     version("master", branch="master")
     version("1.2.1", tag="v1.2.1", commit="959cd90083d0c783389cd09e187c98322c16469f")
     version("1.1.4", tag="v1.1.4", commit="32e96afd159f2158ca129fd00bf02c273d8e1e48")

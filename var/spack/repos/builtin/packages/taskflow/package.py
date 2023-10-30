@@ -15,6 +15,8 @@ class Taskflow(CMakePackage):
     url = "https://github.com/taskflow/taskflow/archive/v2.7.0.tar.gz"
     git = "https://github.com/taskflow/taskflow.git"
 
+    license("MIT")
+
     version("master", branch="master")
     version("2.7.0", sha256="bc2227dcabec86abeba1fee56bb357d9d3c0ef0184f7c2275d7008e8758dfc3e")
 

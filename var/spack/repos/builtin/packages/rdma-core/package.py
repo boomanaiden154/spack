@@ -16,6 +16,8 @@ class RdmaCore(CMakePackage):
     libraries = ["librdmacm.so"]
     keep_werror = "all"
 
+    license("GPL-2.0-only OR BSD-2-Clause")
+
     version("41.0", sha256="e0b7deb8a71f229796a0cfe0fa25192c530cd3d86b755b6b28d1a5986a77507b")
     version("40.0", sha256="8844edb71311e3212e55e28fa4bdc6e06dd6c7b839ed56ee4b606e4220d94ee8")
     version("39.1", sha256="32ccd5c990d34605b6e996de991528ef01d278ad06bcf62ccf8a32edb118c335")

@@ -16,6 +16,8 @@ class Rocprim(CMakePackage):
 
     maintainers("cgmb", "srekolam", "renjithravindrankannath")
 
+    license("MIT")
+
     version("5.6.1", sha256="e9ec1b0039c07cf3096653a04224fe5fe755afc6ba000f6838b3a8bc84df27de")
     version("5.6.0", sha256="360d6ece3c4a3c289dd88043432026fb989e982ae4d05230d8cdc858bcd50466")
     version("5.5.1", sha256="63cdc682afb39efd18f097faf695ce64c851c4a550a8ad96fa89d694451b6a42")

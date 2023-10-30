@@ -16,6 +16,8 @@ class ComposableKernel(CMakePackage):
 
     maintainers("srekolam", "afzpatel")
 
+    license("MIT")
+
     version("master", branch="develop")
     version("5.6.1", commit="f5ec04f091fa5c48c67d7bacec36a414d0be06a5")
     version("5.6.0", commit="f0fd02634c2f8f8c70f5a0ab2a8c84db5e36eeca")

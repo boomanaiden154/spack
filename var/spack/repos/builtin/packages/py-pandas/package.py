@@ -19,6 +19,8 @@ class PyPandas(PythonPackage):
 
     variant("excel", when="@1.4:", default=False, description="Build with support for Excel")
 
+    license("Apache-2.0")
+
     version("2.1.1", sha256="fecb198dc389429be557cde50a2d46da8434a17fe37d7d41ff102e3987fd947b")
     version("2.1.0", sha256="62c24c7fc59e42b775ce0679cfa7b14a5f9bfb7643cfbe708c960699e05fb918")
     version("2.0.3", sha256="c02f372a88e0d17f36d3093a644c73cfc1788e876a7c4bcb4020a77512e2043c")

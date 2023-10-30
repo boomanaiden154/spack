@@ -18,6 +18,8 @@ class SstCore(AutotoolsPackage):
 
     maintainers("berquist", "naromero77")
 
+    license("BSD-3-Clause")
+
     version("13.0.0", sha256="c9d868dcdd75d59bef7c73146709a3b2a52a78f0df5ec2c3dc9f21434c51d935")
     version("12.1.0", sha256="f7530226643439678e2f4183ec4dbadf7750411bdaa44d9443887f81feb97574")
     version("12.0.1", sha256="8662a778354e587e55b909725943dd5bb01d55121b1abc1a384a4eea161e9f5a")

@@ -15,6 +15,8 @@ class PyMypy(PythonPackage):
 
     maintainers("adamjstewart")
 
+    license("PSF-2.0")
+
     version("1.3.0", sha256="e1f4d16e296f5135624b34e8fb741eb0eadedca90862405b1f1fde2040b9bd11")
     version("1.2.0", sha256="f70a40410d774ae23fcb4afbbeca652905a04de7948eaf0b1789c8d1426b72d1")
     version("1.1.1", sha256="ae9ceae0f5b9059f33dbc62dea087e942c0ccab4b7a003719cb70f9b8abfa32f")

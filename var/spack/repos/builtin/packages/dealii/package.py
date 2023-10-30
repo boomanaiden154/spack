@@ -25,6 +25,8 @@ class Dealii(CMakePackage, CudaPackage):
 
     generator("ninja")
 
+    license("LGPL-2.1-or-later")
+
     version("master", branch="master")
     version("9.4.2", sha256="45a76cb400bfcff25cc2d9093d9a5c91545c8367985e6798811c5e9d2a6a6fd4")
     version("9.4.1", sha256="bfe5e4bf069159f93feb0f78529498bfee3da35baf5a9c6852aa59d7ea7c7a48")

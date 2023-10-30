@@ -15,6 +15,8 @@ class Revbayes(CMakePackage):
     url = "https://github.com/revbayes/revbayes/archive/1.1.0.tar.gz"
     git = "https://github.com/revbayes/revbayes.git"
 
+    license("GPL-3.0-or-later")
+
     version("develop", branch="development")
     version("1.1.1", sha256="d61293fceac817d8203ed1e828661d76c73fa16bf04458a50a37057e99fd40c0")
     version("1.1.0", sha256="a9f35178d8289d0dd32c9d936f6384f260e8e81e7b80a5155169064a24666012")

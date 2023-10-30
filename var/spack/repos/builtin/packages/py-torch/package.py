@@ -23,6 +23,8 @@ class PyTorch(PythonPackage, CudaPackage, ROCmPackage):
     # core libraries to ensure that the package was successfully installed.
     import_modules = ["torch", "torch.autograd", "torch.nn", "torch.utils"]
 
+    license("Intel")
+
     version("main", branch="main")
     version("master", branch="main", deprecated=True)
     version("2.1.0", tag="v2.1.0", commit="7bcf7da3a268b435777fe87c7794c382f444e86d")

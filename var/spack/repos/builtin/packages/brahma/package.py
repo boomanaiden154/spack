@@ -13,6 +13,8 @@ class Brahma(CMakePackage):
     git = "https://github.com/hariharan-devarajan/brahma.git"
     maintainers("hariharan-devarajan")
 
+    license("MIT")
+
     version("develop", branch="dev")
     version("master", branch="master")
     version("0.0.1", tag="v0.0.1", commit="15156036f14e36511dfc3f3751dc953540526a2b")

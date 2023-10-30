@@ -12,6 +12,8 @@ class PyFsspec(PythonPackage):
     homepage = "https://github.com/intake/filesystem_spec"
     pypi = "fsspec/fsspec-0.4.4.tar.gz"
 
+    license("BSD-3-Clause")
+
     version("2023.1.0", sha256="fbae7f20ff801eb5f7d0bedf81f25c787c0dfac5e982d98fa3884a9cde2b5411")
     version("2022.11.0", sha256="259d5fd5c8e756ff2ea72f42e7613c32667dc2049a4ac3d84364a7ca034acb8b")
     version("2021.7.0", sha256="792ebd3b54de0b30f1ce73f0ba0a8bcc864724f2d9f248cb8d0ece47db0cbde8")

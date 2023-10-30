@@ -15,6 +15,8 @@ class Catch2(CMakePackage):
     git = "https://github.com/catchorg/Catch2.git"
     maintainers("ax3l")
 
+    license("BSL-1.0")
+
     # In-Development
     version("develop", branch="devel")
 

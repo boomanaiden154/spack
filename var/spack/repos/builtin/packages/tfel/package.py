@@ -32,6 +32,8 @@ class Tfel(CMakePackage):
     git = "https://github.com/thelfer/tfel.git"
     maintainers("thelfer")
 
+    license("CECILL-2.1")
+
     # development branches
     version("master", branch="master")
     version("rliv-4.0", branch="rliv-4.0")

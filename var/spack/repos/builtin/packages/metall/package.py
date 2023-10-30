@@ -18,6 +18,8 @@ class Metall(CMakePackage):
 
     tags = ["e4s"]
 
+    license("Apache-2.0")
+
     version("master", branch="master")
     version("develop", branch="develop")
 

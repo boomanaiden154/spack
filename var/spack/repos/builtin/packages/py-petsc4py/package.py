@@ -17,6 +17,8 @@ class PyPetsc4py(PythonPackage):
 
     maintainers("balay")
 
+    license("BSD-2-Clause")
+
     version("main", branch="main")
     version("3.20.0", sha256="c2461eef3977ae5c214ad252520adbb92ec3a31d00e79391dd92535077bbf03e")
     version("3.19.6", sha256="bd7891b651eb83504c744e70706818cf63ecbabee3206c1fed7c3013873802b9")

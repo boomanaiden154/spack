@@ -16,6 +16,8 @@ class Hiptt(MakefilePackage, ROCmPackage):
 
     maintainers("bvanessen")
 
+    license("OSL-1.1")
+
     version("master", branch="master")
 
     patch("bugfix_make.patch")

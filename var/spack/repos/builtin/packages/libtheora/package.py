@@ -18,6 +18,8 @@ class Libtheora(AutotoolsPackage, MSBuildPackage):
     homepage = "https://www.theora.org"
     url = "http://downloads.xiph.org/releases/theora/libtheora-1.1.1.tar.xz"
 
+    license("BSD-3-Clause")
+
     version("1.1.1", sha256="f36da409947aa2b3dcc6af0a8c2e3144bc19db2ed547d64e9171c59c66561c61")
     version("1.1.0", sha256="3d7b4fb1c115f1a530afd430eed2e8861fa57c8b179ec2d5a5d8f1cd0c7a4268")
 

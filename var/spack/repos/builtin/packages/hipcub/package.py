@@ -14,6 +14,8 @@ class Hipcub(CMakePackage, CudaPackage, ROCmPackage):
     url = "https://github.com/ROCmSoftwarePlatform/hipCUB/archive/rocm-5.5.0.tar.gz"
     tags = ["rocm"]
 
+    license("BSD-3-Clause")
+
     maintainers("srekolam", "renjithravindrankannath")
     version("5.6.1", sha256="4b9479daa40424c9ddbc14ce967aa170680f8ca1ed01a514e6e30ccfa22552ce")
     version("5.6.0", sha256="5e74ddbf833f39836bf9ec6c6750348c7386a85ca67aaf9bb54d16c9e1959031")

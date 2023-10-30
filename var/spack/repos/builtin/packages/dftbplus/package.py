@@ -16,6 +16,8 @@ class Dftbplus(MakefilePackage):
     homepage = "https://www.dftbplus.org"
     url = "https://github.com/dftbplus/dftbplus/archive/19.1.tar.gz"
 
+    license("CC-BY-SA-4.0")
+
     version("19.1", sha256="4d07f5c6102f06999d8cfdb1d17f5b59f9f2b804697f14b3bc562e3ea094b8a8")
 
     resource(

@@ -23,6 +23,8 @@ class Sundials(CMakePackage, CudaPackage, ROCmPackage):
 
     maintainers("balos1", "cswoodward", "gardner48")
 
+    license("BSD-3-Clause")
+
     # ==========================================================================
     # Versions
     # ==========================================================================

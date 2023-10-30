@@ -20,6 +20,9 @@ class RoctracerDev(CMakePackage, ROCmPackage):
 
     maintainers("srekolam", "renjithravindrankannath")
     libraries = ["libroctracer64"]
+
+    license("MIT")
+
     version("5.6.1", sha256="007c498be25b067ad9a7631a2b0892f9129150ee9714e471a921225875d45e69")
     version("5.6.0", sha256="cbcfe4fa2e8b627006b320a93992fb3078696d8ef2ef049b4b880b6b7d57e13e")
     version("5.5.1", sha256="3afc31ebfdb14b0365185ca6b9326a83b1503a94a51d910f5ce7ced192d8c133")

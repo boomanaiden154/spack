@@ -262,6 +262,8 @@ class Cudnn(Package):
 
     skip_version_audit = ["platform=darwin"]
 
+    license("MIT")
+
     for ver, packages in _versions.items():
         key = "{0}-{1}".format(platform.system(), platform.machine())
         pkg = packages.get(key)

@@ -12,6 +12,8 @@ class PyCnvkit(PythonPackage):
     homepage = "https://github.com/etal/cnvkit"
     pypi = "CNVkit/CNVkit-0.9.6.tar.gz"
 
+    license("Apache-2.0")
+
     version("0.9.6", sha256="be889c98a5cf0a994330b8c31c0a65151fb0095fe4e75a1e04118da2516248c2")
 
     depends_on("py-setuptools", type="build")

@@ -18,6 +18,8 @@ class SingularityEos(CMakePackage, CudaPackage):
 
     maintainers("rbberger")
 
+    license("BSD-3-Clause")
+
     version("main", branch="main")
     version("1.7.0", sha256="ce0825db2e9d079503e98cecf1c565352be696109042b3a0941762b35f36dc49")
     version("1.6.2", sha256="9c85fca679139a40cc9c72fcaeeca78a407cc1ca184734785236042de364b942")

@@ -14,6 +14,8 @@ class PyNeo(PythonPackage):
     homepage = "https://neuralensemble.org/neo"
     pypi = "neo/neo-0.4.1.tar.gz"
 
+    license("BSD-3-Clause")
+
     version("0.10.2", sha256="2d4218b0826daeea880e155227060029ec38a00238ceb5f097138d9467c6399b")
     version("0.10.0", sha256="e591a53e18cfa4478603a0e133f3fa0e07bc016b2a279d21d72cf8196eca8353")
     version("0.9.0", sha256="6e31c88d7c52174fa2512df589b2b5003e9471fde27fca9f315f4770ba3bd3cb")
