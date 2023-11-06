@@ -1,0 +1,20 @@
+--- ./Utilities/cmlibarchive/CMakeLists.txt.old	2023-11-05 19:09:07.862545153 -0800
++++ ./Utilities/cmlibarchive/CMakeLists.txt	2023-11-05 19:10:02.960693752 -0800
+@@ -542,6 +542,8 @@
+   MARK_AS_ADVANCED(CLEAR NETTLE_LIBRARIES)
+ ENDIF(ENABLE_NETTLE)
+ 
++set (ENABLE_OPENSSL 1)
++
+ #
+ # Find OpenSSL
+ # (Except on Mac, where OpenSSL is deprecated.)
+@@ -568,6 +570,8 @@
+   ENDIF(LIBMD_FOUND)
+ ENDIF(NOT OPENSSL_FOUND)
+ 
++SET(LIBMD_FOUND 0)
++
+ #
+ # How to prove that CRYPTO functions, which have several names on various
+ # platforms, just see if archive_digest.c can compile and link against

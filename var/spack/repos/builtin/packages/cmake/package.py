@@ -190,6 +190,8 @@ class Cmake(Package):
         when="@3.15.5",
     )
 
+    patch("system-openssl.patch", when="@:3.20.6")
+
     depends_on("ninja", when="platform=windows")
 
     # We default ownlibs to true because it greatly speeds up the CMake
