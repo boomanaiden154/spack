@@ -1398,6 +1398,13 @@ def _build_tarball_in_stage_dir(spec: Spec, out_url: str, stage_dir: str, option
     # create info for later relocation and create tar
     buildinfo = get_buildinfo_dict(spec)
 
+    remote_url = urllib.parse.urlparse(out_url)
+    if remote_url.scheme == "file":
+        tarfile_path = url_util.local_file_path(remote_spackfile_path)
+        specfile_path = url_util.local_file_path(remote_specfile_path)
+        mkdirp(os.path.dirname(tarfile_path))
+        mkdirp(os.path.dirname(specfile_path))
+
     checksum, _ = _do_create_tarball(tarfile_path, binaries_dir, buildinfo)
 
     # add sha256 checksum to spec.json
@@ -1422,12 +1429,13 @@ def _build_tarball_in_stage_dir(spec: Spec, out_url: str, stage_dir: str, option
         key = select_signing_key(options.key)
         sign_specfile(key, options.force, specfile_path)
 
-    # push tarball and signed spec json to remote mirror
-    web_util.push_to_url(spackfile_path, remote_spackfile_path, keep_original=False)
-    web_util.push_to_url(
-        signed_specfile_path if not options.unsigned else specfile_path,
-        remote_signed_specfile_path if not options.unsigned else remote_specfile_path,
-        keep_original=False,
+    if remote_url.scheme != "file":
+        # push tarball and signed spec json to remote mirror
+        web_util.push_to_url(spackfile_path, remote_spackfile_path, keep_original=False)
+        web_util.push_to_url(
+            signed_specfile_path if not options.unsigned else specfile_path,
+            remote_signed_specfile_path if not options.unsigned else remote_specfile_path,
+            keep_original=False,
     )
 
     # push the key to the build cache's _pgp directory so it can be
