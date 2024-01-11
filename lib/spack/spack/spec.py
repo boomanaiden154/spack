@@ -4364,7 +4364,7 @@ class Spec:
                 return
             elif attribute == "license":
                 if self.concrete:
-                    used_license = "UNKNOWN"
+                    used_license = "NOASSERTION"
                     for when_license_spec in spec.package.licenses:
                         if self.intersects(when_license_spec):
                             used_license = spec.package.licenses[when_license_spec]
